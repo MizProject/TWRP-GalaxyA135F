@@ -132,3 +132,8 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_EXTRA_LANGUAGES := false
 TW_USE_NEW_MINADBD := true
+
+# RAMDISK MOD
+# Make sure lzma is enabled on kernel
+BOARD_RAMDISK_USE_LZMA := true
+LZMA_RAMDISK_TARGETS := recovery
